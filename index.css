@@ -1,0 +1,22 @@
+.response-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.response-tables {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+th, td {
+    border: 1px solid grey;
+}
+.pagination-wrapper {
+    display: flex;
+}
+.pagination-link-wrapper {
+    margin: 3px;
+}
